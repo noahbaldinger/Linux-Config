@@ -1,0 +1,18 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10138e4d3da000168690673500000325030004
+clientId2=10138e4d3da000168690673500000325030006
+count=2
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/firewall-applet
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10138e4d3da000168690673500000325030004_1686906910_359595
+restartCommand2=/usr/bin/firewall-applet,-session,10138e4d3da000168690673500000325030006_1686906910_359589,-name,firewall-applet
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=nbaldinger
+userId2=nbaldinger
