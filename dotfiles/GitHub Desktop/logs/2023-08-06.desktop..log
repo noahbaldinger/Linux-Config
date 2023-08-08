@@ -1,0 +1,45 @@
+2023-08-06T13:16:32.546Z - info: [ui] [AppStore] loading 2 repositories from store
+2023-08-06T13:16:32.601Z - info: [ui] [AppStore] found account: noahbaldinger (Noah Baldinger)
+2023-08-06T13:16:32.647Z - info: [ui] [BranchPruner] Last prune took place yesterday - skipping
+2023-08-06T13:16:33.026Z - info: [ui] launching: 3.2.7-linux2 (Linux 6.4.8-zen1-1-zen)
+2023-08-06T13:16:33.027Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-08-06T13:16:33.097Z - info: [ui] Subscribed 'noahbaldinger' to Alive channel
+2023-08-06T13:16:41.404Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2023-08-06T13:16:47.475Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/noahbaldinger/python_projects.git - noahbaldinger (has token)
+2023-08-06T13:16:48.473Z - info: [ui] [AppStore] adding repository at /home/nbaldinger/Documents/GitHub/python_projects to store
+2023-08-06T13:16:48.600Z - info: [ui] [BranchPruner] Last prune took place yesterday - skipping
+2023-08-06T13:16:48.833Z - info: [ui] [BranchPruner] No branches to prune.
+2023-08-06T13:16:54.892Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/noahbaldinger/nvim-pde.git - noahbaldinger (has token)
+2023-08-06T13:16:55.455Z - info: [ui] [AppStore] adding repository at /home/nbaldinger/Documents/GitHub/nvim-pde to store
+2023-08-06T13:16:55.569Z - info: [ui] [BranchPruner] Last prune took place 7 seconds ago - skipping
+2023-08-06T13:17:03.589Z - info: [ui] [BranchPruner] Last prune took place 8 seconds ago - skipping
+2023-08-06T13:17:06.808Z - info: [ui] [BranchPruner] Last prune took place 11 seconds ago - skipping
+2023-08-06T13:18:48.371Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:18:48.457Z - info: [ui] [Timing] Action 'checkout branch from list' for 'noahbaldinger/nvim-pde' took 0.086s
+2023-08-06T13:19:00.179Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:19:00.257Z - info: [ui] [Timing] Action 'checkout branch from list' for 'noahbaldinger/nvim-pde' took 0.078s
+2023-08-06T13:20:27.989Z - info: [ui] [BranchPruner] Last prune took place yesterday - skipping
+2023-08-06T13:22:50.316Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-08-06T13:22:50.319Z - info: [ui] [AppStore] found account: noahbaldinger (Noah Baldinger)
+2023-08-06T13:22:50.340Z - info: [ui] [BranchPruner] Last prune took place yesterday - skipping
+2023-08-06T13:22:50.590Z - info: [ui] launching: 3.2.7-linux2 (Linux 6.4.8-zen1-1-zen)
+2023-08-06T13:22:50.591Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-08-06T13:22:50.643Z - info: [ui] Subscribed 'noahbaldinger' to Alive channel
+2023-08-06T13:22:57.411Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.5s of which 0.0s paused, total 0.5s
+2023-08-06T13:23:02.308Z - info: [ui] [AppStore] adding repository at /home/nbaldinger/Programming/nvim-pde to store
+2023-08-06T13:23:07.617Z - info: [ui] [BranchPruner] Last prune took place 6 minutes ago - skipping
+2023-08-06T13:23:13.657Z - info: [ui] [Timing] Action 'create commit' for 'noahbaldinger/nvim-pde' took 0.057s
+2023-08-06T13:23:15.528Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:23:19.653Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:25:26.470Z - info: [ui] [AppStore] loading 4 repositories from store
+2023-08-06T13:25:26.473Z - info: [ui] [AppStore] found account: noahbaldinger (Noah Baldinger)
+2023-08-06T13:25:26.496Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2023-08-06T13:25:26.682Z - info: [ui] launching: 3.2.7-linux2 (Linux 6.4.8-zen1-1-zen)
+2023-08-06T13:25:26.719Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-08-06T13:25:26.820Z - info: [ui] Subscribed 'noahbaldinger' to Alive channel
+2023-08-06T13:26:24.858Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:26:27.886Z - info: [ui] [Timing] Action 'create commit' for 'noahbaldinger/nvim-pde' took 0.049s
+2023-08-06T13:26:29.586Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:26:31.625Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 2.033s)
+2023-08-06T13:26:34.352Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: nvim-pde - noahbaldinger (has token)
+2023-08-06T13:26:52.296Z - info: [ui] [BranchPruner] Last prune took place 10 minutes ago - skipping

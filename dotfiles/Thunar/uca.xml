@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1686723114104163-1</unique-id>
+	<command>alacritty</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>Alacritty</icon>
+	<name>Open in NeoVim</name>
+	<submenu></submenu>
+	<unique-id>1687161683869480-1</unique-id>
+	<command>alacritty -e nvim</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+</action>
+</actions>

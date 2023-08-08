@@ -1,0 +1,6 @@
+2023/08/01-14:57:56.415 d028 Reusing MANIFEST /home/nbaldinger/.config/Pulsar/Local Storage/leveldb/MANIFEST-000001
+2023/08/01-14:57:56.415 d028 Recovering log #5
+2023/08/01-14:57:56.415 d028 Reusing old log /home/nbaldinger/.config/Pulsar/Local Storage/leveldb/000005.log 
+2023/08/01-14:59:57.843 d19d Level-0 table #8: started
+2023/08/01-14:59:57.865 d19d Level-0 table #8: 77290 bytes OK
+2023/08/01-14:59:57.866 d19d Delete type=0 #5
