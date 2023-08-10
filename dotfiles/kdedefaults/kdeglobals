@@ -2,7 +2,7 @@
 ColorScheme=MateriaDark
 
 [Icons]
-Theme=Papirus-Dark
+Theme=Gruvbox
 
 [KDE]
 widgetStyle=Breeze

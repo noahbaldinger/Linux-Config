@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    export LANGUAGE="en_GB.UTF-8"
-    export LC_ALL="en_GB.UTF-8"
+    export LANGUAGE="en_US.UTF-8"
+    export LC_ALL="en_US.UTF-8"
     export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
     export EDITOR="/usr/bin/nvim"
     export PATH="/home/nbaldinger/.local/bin:$PATH/"
@@ -118,7 +118,14 @@ if status is-interactive
 
 
     alias shared='sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000'
+
     starship init fish | source
     
-
+    
+end
+begin
+    set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish
+    if test -e $AUTOJUMP_PATH
+        source $AUTOJUMP_PATH
+    end
 end
