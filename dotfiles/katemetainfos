@@ -1,0 +1,35 @@
+[file:///home/noah/.config/nvim/init.lua]
+Bookmarks=
+Checksum=6af4a83b759b47b360a4e5c8086d45db49ffbe36
+Encoding=UTF-8
+Highlighting=Lua
+Highlighting Set By User=false
+Indentation Mode=lua
+Mode=Lua
+Mode Set By User=false
+Time=2023,8,10,15,49,28.82
+URL=file:///home/noah/.config/nvim/init.lua
+
+[file:///home/noah/.config/nvim/lua/nbaldinger/init.lua]
+Bookmarks=
+Checksum=28015e3a43934476b16b4bb53f674fd15eb64768
+Encoding=UTF-8
+Highlighting=Lua
+Highlighting Set By User=false
+Indentation Mode=lua
+Mode=Lua
+Mode Set By User=false
+Time=2023,8,10,15,43,55.517
+URL=file:///home/noah/.config/nvim/lua/nbaldinger/init.lua
+
+[file:///home/noah/.config/nvim/lua/nbaldinger/packer.lua]
+Bookmarks=
+Checksum=c9768c9e67d41d81b65b49713f85e3985ce42afc
+Encoding=UTF-8
+Highlighting=Lua
+Highlighting Set By User=false
+Indentation Mode=lua
+Mode=Lua
+Mode Set By User=false
+Time=2023,8,10,15,41,55.654
+URL=file:///home/noah/.config/nvim/lua/nbaldinger/packer.lua
