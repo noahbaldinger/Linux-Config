@@ -42,7 +42,7 @@ DialogWidth=880
 PreloadWeight=42
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Mystery Shack. [3840x2160].png
+Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Samurai darker.png
 
 [Containments][10]
 activityId=
@@ -51,8 +51,8 @@ immutability=1
 lastScreen=1
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=528
-popupWidth=528
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][10][Applets][11]
@@ -60,7 +60,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][10][Applets][11][Configuration]
-PreloadWeight=77
+PreloadWeight=82
 
 [Containments][10][Applets][11][Configuration][General]
 migrated=true
@@ -73,7 +73,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][10][Applets][13][Configuration]
-PreloadWeight=42
+PreloadWeight=62
 
 [Containments][10][Applets][14][Configuration]
 PreloadWeight=42
@@ -83,7 +83,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][10][Applets][15][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 
 [Containments][10][Applets][15][Shortcuts]
 global=Meta+N
@@ -109,7 +109,7 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][10][Applets][22][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][10][Applets][23][Configuration]
 PreloadWeight=42
@@ -126,7 +126,10 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][10][Applets][72][Configuration]
-PreloadWeight=39
+PreloadWeight=15
+
+[Containments][10][Applets][79][Configuration]
+PreloadWeight=42
 
 [Containments][10][ConfigDialog]
 DialogHeight=1037
@@ -137,7 +140,7 @@ PreloadWeight=42
 
 [Containments][10][General]
 extraItems=org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol
-hiddenItems=KDE Daemon,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,com.leinardi.gwe
+hiddenItems=KDE Daemon,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,com.leinardi.gwe,indicator-solaar
 iconSpacing=1
 knownItems=org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.kscreen,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery
 shownItems=org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller
@@ -164,7 +167,7 @@ DialogWidth=880
 PreloadWeight=42
 
 [Containments][2][Wallpaper][org.kde.image][General]
-Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Mystery Shack. [3840x2160].png
+Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Samurai darker.png
 
 [Containments][25]
 activityId=
@@ -182,13 +185,14 @@ plugin=org.kde.plasma.kickoff
 [Containments][25][Applets][26][Configuration]
 PreloadWeight=100
 popupHeight=574
-popupWidth=729
+popupWidth=651
 
 [Containments][25][Applets][26][Configuration][ConfigDialog]
 DialogHeight=660
 DialogWidth=880
 
 [Containments][25][Applets][26][Configuration][General]
+alphaSort=true
 favoritesPortedToKAstats=true
 icon=distributor-logo-archlinux
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
@@ -218,8 +222,13 @@ plugin=org.kde.plasma.icontasks
 [Containments][25][Applets][28][Configuration]
 PreloadWeight=42
 
+[Containments][25][Applets][28][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][25][Applets][28][Configuration][General]
-launchers=preferred://filemanager,preferred://browser,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,file:///var/lib/flatpak/exports/share/applications/com.teamspeak.TeamSpeak.desktop,file:///var/lib/flatpak/exports/share/applications/io.github.mimbrero.WhatsAppDesktop.desktop,applications:github-desktop.desktop,applications:bitwarden.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:Alacritty.desktop
+iconSpacing=0
+launchers=preferred://filemanager,preferred://browser,applications:spotify.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:teamspeak3.desktop,file:///var/lib/flatpak/exports/share/applications/io.github.mimbrero.WhatsAppDesktop.desktop,applications:github-desktop.desktop,applications:bitwarden.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:Alacritty.desktop
 
 [Containments][25][Applets][29]
 immutability=1
@@ -233,7 +242,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][25][Applets][30][Configuration]
-PreloadWeight=47
+PreloadWeight=97
 SystrayContainmentId=31
 
 [Containments][25][Applets][41]
@@ -244,9 +253,14 @@ plugin=org.kde.plasma.digitalclock
 PreloadWeight=42
 
 [Containments][25][Applets][41][Configuration][Appearance]
+autoFontAndSize=false
 customDateFormat=ddd dd/MMM/yyyy
 dateFormat=custom
+fontFamily=Noto Sans
+fontSize=14
+fontStyleName=Regular
 showSeconds=true
+showWeekNumbers=true
 use24hFormat=2
 
 [Containments][25][Applets][41][Configuration][ConfigDialog]
@@ -270,6 +284,22 @@ PreloadWeight=42
 [Containments][25][Applets][69][Configuration][Appearance]
 transparencyEnabled=true
 
+[Containments][25][Applets][73]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][25][Applets][73][Configuration][General]
+expanding=false
+length=240
+
+[Containments][25][Applets][74]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][25][Applets][74][Configuration][General]
+expanding=false
+length=240
+
 [Containments][25][ConfigDialog]
 DialogHeight=93
 DialogWidth=2560
@@ -278,7 +308,7 @@ DialogWidth=2560
 PreloadWeight=42
 
 [Containments][25][General]
-AppletOrder=26;27;28;29;30;41;69;42
+AppletOrder=74;26;27;28;29;30;41;69;42;73
 
 [Containments][3]
 ItemGeometries-2560x1440=
@@ -299,7 +329,7 @@ DialogWidth=880
 PreloadWeight=42
 
 [Containments][3][Wallpaper][org.kde.image][General]
-Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Mystery Shack. [3840x2160].png
+Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Samurai darker.png
 
 [Containments][31]
 activityId=
@@ -308,6 +338,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][31][Applets][32]
@@ -328,7 +360,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][31][Applets][34][Configuration]
-PreloadWeight=42
+PreloadWeight=67
 
 [Containments][31][Applets][35][Configuration]
 PreloadWeight=42
@@ -351,21 +383,21 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][31][Applets][39][Configuration]
-PreloadWeight=42
+PreloadWeight=52
 
 [Containments][31][Applets][40]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][31][Applets][40][Configuration]
-PreloadWeight=42
+PreloadWeight=47
 
 [Containments][31][Applets][43]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][31][Applets][43][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][31][Applets][44][Configuration]
 PreloadWeight=42
@@ -382,7 +414,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][31][Applets][71][Configuration]
-PreloadWeight=34
+PreloadWeight=10
 
 [Containments][31][ConfigDialog]
 DialogHeight=660
@@ -393,7 +425,7 @@ PreloadWeight=42
 
 [Containments][31][General]
 extraItems=org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard
-hiddenItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kscreen,com.leinardi.gwe,org.kde.plasma.clipboard
+hiddenItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kscreen,com.leinardi.gwe,org.kde.plasma.clipboard,indicator-solaar
 iconSpacing=1
 knownItems=org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.kscreen,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery
 shownItems=org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller
@@ -415,8 +447,12 @@ plugin=org.kde.plasma.digitalclock
 PreloadWeight=42
 
 [Containments][4][Applets][20][Configuration][Appearance]
+autoFontAndSize=false
 customDateFormat=ddd dd/MMM/yyyy
 dateFormat=custom
+fontFamily=Noto Sans
+fontSize=14
+fontStyleName=Regular
 showSeconds=true
 use24hFormat=2
 
@@ -438,7 +474,7 @@ plugin=org.kde.plasma.kickoff
 [Containments][4][Applets][5][Configuration]
 PreloadWeight=100
 popupHeight=574
-popupWidth=729
+popupWidth=651
 
 [Containments][4][Applets][5][Configuration][ConfigDialog]
 DialogHeight=660
@@ -487,8 +523,29 @@ plugin=org.kde.plasma.icontasks
 [Containments][4][Applets][7][Configuration]
 PreloadWeight=42
 
+[Containments][4][Applets][7][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][4][Applets][7][Configuration][General]
-launchers=preferred://filemanager,preferred://browser,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,file:///var/lib/flatpak/exports/share/applications/com.teamspeak.TeamSpeak.desktop,file:///var/lib/flatpak/exports/share/applications/io.github.mimbrero.WhatsAppDesktop.desktop,applications:github-desktop.desktop,applications:bitwarden.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:Alacritty.desktop
+iconSpacing=0
+launchers=preferred://filemanager,preferred://browser,applications:spotify.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:teamspeak3.desktop,file:///var/lib/flatpak/exports/share/applications/io.github.mimbrero.WhatsAppDesktop.desktop,applications:github-desktop.desktop,applications:bitwarden.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:Alacritty.desktop
+
+[Containments][4][Applets][75]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][4][Applets][75][Configuration][General]
+expanding=false
+length=240
+
+[Containments][4][Applets][76]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][4][Applets][76][Configuration][General]
+expanding=false
+length=240
 
 [Containments][4][Applets][8]
 immutability=1
@@ -513,7 +570,7 @@ DialogWidth=2560
 PreloadWeight=42
 
 [Containments][4][General]
-AppletOrder=5;6;7;8;9;20;67;21
+AppletOrder=76;5;6;7;8;9;20;67;21;75
 
 [Containments][46]
 activityId=
@@ -529,9 +586,9 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][46][Applets][47][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 popupHeight=574
-popupWidth=729
+popupWidth=651
 
 [Containments][46][Applets][47][Configuration][ConfigDialog]
 DialogHeight=660
@@ -567,8 +624,13 @@ plugin=org.kde.plasma.icontasks
 [Containments][46][Applets][49][Configuration]
 PreloadWeight=42
 
+[Containments][46][Applets][49][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][46][Applets][49][Configuration][General]
-launchers=preferred://filemanager,preferred://browser,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,file:///var/lib/flatpak/exports/share/applications/com.teamspeak.TeamSpeak.desktop,file:///var/lib/flatpak/exports/share/applications/io.github.mimbrero.WhatsAppDesktop.desktop,applications:github-desktop.desktop,applications:bitwarden.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:Alacritty.desktop
+iconSpacing=0
+launchers=preferred://filemanager,preferred://browser,applications:spotify.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:teamspeak3.desktop,file:///var/lib/flatpak/exports/share/applications/io.github.mimbrero.WhatsAppDesktop.desktop,applications:github-desktop.desktop,applications:bitwarden.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:Alacritty.desktop
 
 [Containments][46][Applets][50]
 immutability=1
@@ -582,7 +644,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][46][Applets][51][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 SystrayContainmentId=52
 
 [Containments][46][Applets][62]
@@ -593,8 +655,12 @@ plugin=org.kde.plasma.digitalclock
 PreloadWeight=42
 
 [Containments][46][Applets][62][Configuration][Appearance]
+autoFontAndSize=false
 customDateFormat=ddd dd/MMM/yyyy
 dateFormat=custom
+fontFamily=Noto Sans
+fontSize=14
+fontStyleName=Regular
 showSeconds=true
 use24hFormat=2
 
@@ -619,6 +685,22 @@ PreloadWeight=42
 [Containments][46][Applets][68][Configuration][Appearance]
 transparencyEnabled=true
 
+[Containments][46][Applets][77]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][46][Applets][77][Configuration][General]
+expanding=false
+length=240
+
+[Containments][46][Applets][78]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][46][Applets][78][Configuration][General]
+expanding=false
+length=240
+
 [Containments][46][ConfigDialog]
 DialogHeight=93
 DialogWidth=2560
@@ -627,7 +709,7 @@ DialogWidth=2560
 PreloadWeight=42
 
 [Containments][46][General]
-AppletOrder=47;48;49;50;51;62;68;63
+AppletOrder=77;47;48;49;50;51;62;68;63;78
 
 [Containments][52]
 activityId=
@@ -636,8 +718,8 @@ immutability=1
 lastScreen=2
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=528
-popupWidth=528
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][52][Applets][53]
@@ -658,7 +740,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][52][Applets][55][Configuration]
-PreloadWeight=42
+PreloadWeight=62
 
 [Containments][52][Applets][56][Configuration]
 PreloadWeight=42
@@ -695,7 +777,7 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][52][Applets][64][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][52][Applets][65][Configuration]
 PreloadWeight=42
@@ -712,7 +794,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][52][Applets][70][Configuration]
-PreloadWeight=34
+PreloadWeight=10
 
 [Containments][52][ConfigDialog]
 DialogHeight=660
@@ -723,7 +805,7 @@ PreloadWeight=42
 
 [Containments][52][General]
 extraItems=org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.kscreen,org.kde.plasma.nightcolorcontrol
-hiddenItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.clipboard,com.leinardi.gwe
+hiddenItems=org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.clipboard,com.leinardi.gwe,indicator-solaar
 iconSpacing=1
 knownItems=org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.kscreen,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery
 shownItems=org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller
@@ -733,3 +815,4 @@ launchers=preferred://filemanager,preferred://browser,applications:org.kde.disco
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=

@@ -112,6 +112,8 @@ BrowserApplication=firefox.desktop
 ColorSchemeHash=3b17c5d56f8f372f0b0b9f709c4579c23e51fe6a
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
 
 [KDE]
 AnimationDurationFactor=0.125
@@ -130,13 +132,13 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=154
-View Style=DetailTree
+View Style=Simple
 
 [PreviewSettings]
 MaximumRemoteSize=0

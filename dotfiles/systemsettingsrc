@@ -1,3 +1,13 @@
+[KFileDialog Settings]
+Recent Files[$e]=rofi-run,file:$HOME/.config/rofi/powermenu/type-2/powermenu.sh,file:$HOME/.config/rofi/launchers/type-6/launcher.sh,file:$HOME/OneDrive/Documents/Bilder/Wallpapers/[3840x2160] Gruvbox Stripes\\, all wallpapers (light & dark\\, all resolutions available)(2).png,file:///usr/local/bin/rofi_power,file:///usr/local/bin/rofi-run
+Recent URLs[$e]=file:///usr/local/bin/,file:///,file:$HOME/OneDrive/Documents/Bilder/Wallpapers/,file:$HOME/.config/rofi/launchers/type-6/,file:$HOME/.config/rofi/powermenu/type-2/
+detailViewIconSize=16
+iconViewIconSize=64
+
+[KPropertiesDialog]
+3 screens: Height=569
+3 screens: Width=511
+
 [MainWindow]
 3 screens: Height=1390
 3 screens: Width=2560
@@ -6,5 +16,5 @@
 3 screens: YPosition=0
 DP-2 DP-4 HDMI-0=HDMI-0
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAACgAAAAVuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABPoAAAVmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

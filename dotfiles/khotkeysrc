@@ -999,6 +999,8 @@ ColorScheme[$d]
 ColorSchemeHash[$d]
 TerminalApplication[$d]
 TerminalService[$d]
+XftHintStyle[$d]
+XftSubPixel[$d]
 
 [Gestures]
 Disabled=true

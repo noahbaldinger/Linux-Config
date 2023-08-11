@@ -5,9 +5,14 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=10dbe5d7d6000169167940500000009770005
-count=1
+clientId1=10dbe5d7d6000169174690000000011480004
+clientId2=10dbe5d7d6000169174690000000011480005
+count=2
 program1=/usr/lib/DiscoverNotifier
-restartCommand1=/usr/lib/DiscoverNotifier,-session,10dbe5d7d6000169167940500000009770005_1691682577_861748
+program2=/usr/bin/firewall-applet
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10dbe5d7d6000169174690000000011480004_1691744227_989993
+restartCommand2=/usr/bin/firewall-applet,-session,10dbe5d7d6000169174690000000011480005_1691744227_989994,-name,firewall-applet
 restartStyleHint1=0
+restartStyleHint2=0
 userId1=noah
+userId2=noah

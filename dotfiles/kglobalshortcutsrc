@@ -14,18 +14,6 @@ _launch=Meta+T,none,Alacritty
 Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
-[arandr.desktop]
-_k_friendly_name=ARandR
-_launch=none,none,Launch ARandR
-
-[assistant.desktop]
-_k_friendly_name=Qt Assistant
-_launch=none,none,Launch Qt Assistant
-
-[avahi-discover.desktop]
-_k_friendly_name=Avahi Zeroconf Browser
-_launch=none,none,Launch Avahi Zeroconf Browser
-
 [bismuth]
 _k_friendly_name=Window Tiling
 decrease_master_size=none,,Decrease Master Area Size
@@ -63,18 +51,6 @@ toggle_stair_layout=none,,Toggle Stair Layout
 toggle_three_column_layout=none,,Toggle Three Column Layout
 toggle_tile_layout=Ctrl+Alt+T,Meta+T,Toggle Tile Layout
 toggle_window_floating=Meta+F,Meta+F,Toggle Active Window Floating
-
-[bssh.desktop]
-_k_friendly_name=Avahi SSH Server Browser
-_launch=none,none,Launch Avahi SSH Server Browser
-
-[bvnc.desktop]
-_k_friendly_name=Avahi VNC Server Browser
-_launch=none,none,Launch Avahi VNC Server Browser
-
-[designer.desktop]
-_k_friendly_name=Qt Designer
-_launch=none,none,Launch Qt Designer
 
 [firefox.desktop]
 _k_friendly_name=Firefox Web Browser
@@ -137,7 +113,7 @@ MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
 Overview=Meta+W,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
-Show Desktop=Meta+D,Meta+D,Peek at Desktop
+Show Desktop=none,Meta+D,Peek at Desktop
 ShowDesktopGrid=Meta+F8\tMeta+G,Meta+F8,Show Desktop Grid
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
@@ -191,7 +167,7 @@ Walk Through Desktop List (Reverse)=none,,Walk Through Desktop List (Reverse)
 Walk Through Desktops=none,,Walk Through Desktops
 Walk Through Desktops (Reverse)=none,,Walk Through Desktops (Reverse)
 Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
-Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Backtab,Walk Through Windows (Reverse)
+Walk Through Windows (Reverse)=Alt+Shift+Tab,Alt+Shift+Backtab,Walk Through Windows (Reverse)
 Walk Through Windows Alternative=none,,Walk Through Windows Alternative
 Walk Through Windows Alternative (Reverse)=none,,Walk Through Windows Alternative (Reverse)
 Walk Through Windows of Current Application=Alt+`,Alt+`,Walk Through Windows of Current Application
@@ -276,21 +252,17 @@ view_actual_size=none,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
-[linguist.desktop]
-_k_friendly_name=Qt Linguist
-_launch=none,none,Launch Qt Linguist
-
-[lstopo.desktop]
-_k_friendly_name=Hardware Locality lstopo
-_launch=none,none,Launch Hardware Locality lstopo
+[launcher.sh.desktop]
+_k_friendly_name=launcher.sh
+_launch=Meta+D,none,/home/noah/.config/rofi/launchers/type-6/launcher.sh
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=,,Media volume down
-mediavolumeup=,,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=,,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -303,14 +275,6 @@ _launch=Ctrl+Alt+V,none,Neovim
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
 
-[org.kde.drkonqi.coredump.gui.desktop]
-_k_friendly_name=Crashed Processes Viewer
-_launch=none,none,Launch Crashed Processes Viewer
-
-[org.kde.kinfocenter.desktop]
-_k_friendly_name=Info Center
-_launch=none,none,Launch Info Center
-
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
@@ -322,17 +286,9 @@ RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
 _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
-[org.kde.kuserfeedback-console.desktop]
-_k_friendly_name=UserFeedback Console
-_launch=none,none,Launch UserFeedback Console
-
-[org.kde.plasma-welcome.desktop]
-_k_friendly_name=Welcome Center
-_launch=none,none,Launch Welcome Center
-
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
-_launch=none,Meta+.\tMeta+Ctrl+Alt+Shift+Space,Launch Emoji Selector
+_launch=Meta+.\tMeta+Ctrl+Alt+Shift+Space,Meta+.\tMeta+Ctrl+Alt+Shift+Space,Emoji Selector
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -382,33 +338,9 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[qdbusviewer.desktop]
-_k_friendly_name=Qt QDBusViewer
-_launch=none,none,Launch Qt QDBusViewer
-
-[qv4l2.desktop]
-_k_friendly_name=Qt V4L2 test Utility
-_launch=none,none,Launch Qt V4L2 test Utility
-
-[qvidcap.desktop]
-_k_friendly_name=Qt V4L2 video capture utility
-_launch=none,none,Launch Qt V4L2 video capture utility
-
-[rofi-theme-selector.desktop]
-_k_friendly_name=Rofi Theme Selector
-_launch=none,none,Launch Rofi Theme Selector
-
-[rofi.desktop]
-_k_friendly_name=Rofi
-_launch=none,none,Launch Rofi
-
-[stoken-gui-small.desktop]
-_k_friendly_name=Software Token (small)
-_launch=none,none,Launch Software Token (small)
-
-[stoken-gui.desktop]
-_k_friendly_name=Software Token
-_launch=none,none,Launch Software Token
+[powermenu.sh.desktop]
+_k_friendly_name=powermenu.sh
+_launch=Meta+X,none,/home/noah/.config/rofi/powermenu/type-2/powermenu.sh
 
 [systemsettings.desktop]
 _k_friendly_name=System Settings
@@ -418,26 +350,3 @@ kcm-lookandfeel=none,none,Global Theme
 kcm-users=none,none,Users
 powerdevilprofilesconfig=none,none,Energy Saving
 screenlocker=none,none,Screen Locking
-
-[thunar-bulk-rename.desktop]
-_k_friendly_name=Bulk Rename
-_launch=none,none,Launch Bulk Rename
-
-[thunar-settings.desktop]
-_k_friendly_name=File Manager Settings
-_launch=none,none,Launch File Manager Settings
-
-[thunar.desktop]
-_k_friendly_name=Thunar File Manager
-_launch=none,none,Launch Thunar File Manager
-open-computer=none,none,Computer
-open-home=none,none,Home
-open-trash=none,none,Trash
-
-[yad-icon-browser.desktop]
-_k_friendly_name=Icon Browser
-_launch=none,none,Launch Icon Browser
-
-[yad-settings.desktop]
-_k_friendly_name=YAD settings
-_launch=none,none,Launch YAD settings

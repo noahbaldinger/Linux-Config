@@ -2,6 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered,bismuth_new_logger.upd:bismuth-new-logger
 
 [Compositing]
+HiddenPreviews=6
 WindowsBlockCompositing=false
 
 [Desktops]
@@ -17,8 +18,17 @@ Id_9=b9f40f3a-69f4-444f-8f0f-64e60ba73003
 Number=9
 Rows=3
 
+[Effect-kwin4_effect_doom]
+Duration=1600
+
+[Effect-kwin4_effect_tv]
+Duration=1500
+
 [Effect-windowview]
 BorderActivateAll=9
+
+[MouseBindings]
+CommandTitlebarWheel=Shade/Unshade
 
 [NightColor]
 Active=true
@@ -29,9 +39,16 @@ TransitionTime=120
 
 [Plugins]
 bismuthEnabled=true
-blurEnabled=true
+blurEnabled=false
+contrastEnabled=false
+kwin4_effect_doomEnabled=true
+kwin4_effect_scaleEnabled=false
+kwin4_effect_squashEnabled=false
+kwin4_effect_tvEnabled=true
+screenedgeEnabled=false
 
 [Script-bismuth]
+ignoreClass=yakuake,spectacle,Conky,zoom,github desktop,whatsapp-desktop-linux,ts3client_linux_amd64,
 maximizeSoleTile=true
 noTileBorder=true
 preventProtrusion=false
@@ -41,6 +58,9 @@ screenGapRight=4
 screenGapTop=4
 tileLayoutGap=4
 untileByDragging=false
+
+[TabBox]
+LayoutName=flipswitch
 
 [Tiling]
 padding=4

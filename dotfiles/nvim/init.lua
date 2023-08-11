@@ -71,7 +71,7 @@ require"startup".setup({
         cursor_column = 0.5,
         empty_lines_between_mappings = true,
         disable_statuslines = true,
-        paddings = { 1, 5, 27, 0 },
+        paddings = { 6, 6, 27, 0 },
     },
     mappings = {
         execute_command = "<CR>",
