@@ -1,0 +1,8 @@
+# Misc options
+#UseSyslog
+Color
+ILoveCandy
+#NoProgressBar
+#CheckSpace
+VerbosePkgLists
+ParallelDownloads = 5
