@@ -1,0 +1,9 @@
+2023-08-11T09:39:26.972Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-08-11T09:39:26.977Z - info: [ui] [AppStore] found account: noahbaldinger (Noah Baldinger)
+2023-08-11T09:39:27.019Z - info: [ui] [BranchPruner] Last prune took place 17 hours ago - skipping
+2023-08-11T09:39:27.161Z - info: [ui] launching: 3.2.7-linux2 (Linux 6.4.9-zen1-1-zen)
+2023-08-11T09:39:27.186Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-08-11T09:39:27.334Z - info: [ui] Subscribed 'noahbaldinger' to Alive channel
+2023-08-11T09:39:27.478Z - info: [ui] Stats reported.
+2023-08-11T09:39:29.509Z - info: [ui] [BranchPruner] Last prune took place 17 hours ago - skipping
+2023-08-11T09:39:30.526Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: rust - noahbaldinger (has token)

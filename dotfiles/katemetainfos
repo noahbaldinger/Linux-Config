@@ -1,0 +1,107 @@
+[file:///home/noah/.config/autostart/gwe.desktop]
+Bookmarks=
+Checksum=fd0a5c21efd8026f92917e8bb621ed71e8466a99
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2023,8,10,16,32,51.597
+URL=file:///home/noah/.config/autostart/gwe.desktop
+
+[file:///home/noah/.config/autostart/nvidia-settings.desktop]
+Bookmarks=
+Checksum=02a7bc4e9e1891b541d8277035bda9340de84be4
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2023,8,10,16,33,24.202
+URL=file:///home/noah/.config/autostart/nvidia-settings.desktop
+
+[file:///home/noah/.config/bspwm/bspwmrc]
+Bookmarks=
+Checksum=24e15a4d3e3eef4b01f149c01e400237a42dbda5
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,8,10,18,8,24.032
+URL=file:///home/noah/.config/bspwm/bspwmrc
+
+[file:///home/noah/.config/khotkeysrc]
+Bookmarks=
+Checksum=709e73af32c9bacd07ad4489018990d634856c14
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,8,11,9,28,33.703
+URL=file:///home/noah/.config/khotkeysrc
+
+[file:///home/noah/.config/nvim/init.lua]
+Bookmarks=
+Checksum=6af4a83b759b47b360a4e5c8086d45db49ffbe36
+Encoding=UTF-8
+Highlighting=Lua
+Highlighting Set By User=false
+Indentation Mode=lua
+Mode=Lua
+Mode Set By User=false
+Time=2023,8,10,15,49,28.82
+URL=file:///home/noah/.config/nvim/init.lua
+
+[file:///home/noah/.config/nvim/lua/nbaldinger/init.lua]
+Bookmarks=
+Checksum=28015e3a43934476b16b4bb53f674fd15eb64768
+Encoding=UTF-8
+Highlighting=Lua
+Highlighting Set By User=false
+Indentation Mode=lua
+Mode=Lua
+Mode Set By User=false
+Time=2023,8,10,15,43,55.517
+URL=file:///home/noah/.config/nvim/lua/nbaldinger/init.lua
+
+[file:///home/noah/.config/nvim/lua/nbaldinger/packer.lua]
+Bookmarks=
+Checksum=c9768c9e67d41d81b65b49713f85e3985ce42afc
+Encoding=UTF-8
+Highlighting=Lua
+Highlighting Set By User=false
+Indentation Mode=lua
+Mode=Lua
+Mode Set By User=false
+Time=2023,8,10,15,41,55.654
+URL=file:///home/noah/.config/nvim/lua/nbaldinger/packer.lua
+
+[file:///home/noah/.config/rofi/launchers/type-6/launcher.sh]
+Bookmarks=
+Checksum=eca080601da44dd9c779cd05acfd8f455deb394e
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,8,11,9,24,10.053
+URL=file:///home/noah/.config/rofi/launchers/type-6/launcher.sh
+
+[file:///home/noah/.config/rofi/powermenu/type-2/powermenu.sh]
+Bookmarks=
+Checksum=e6cb73f921746160c442d2cd95fcf8c9d3901061
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,8,11,9,24,23.652
+URL=file:///home/noah/.config/rofi/powermenu/type-2/powermenu.sh

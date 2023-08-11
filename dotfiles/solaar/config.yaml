@@ -1,0 +1,14 @@
+- 1.1.9
+- _NAME: PRO X Wireless
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, pointer_speed, speed-change, backlight, backlight-timed, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone,
+    equalizer, adc_power_management]
+  _battery: 4100
+  _modelId: 4093C0940000
+  _serial: 1016AE62
+  _unitId: 1016AE62
+  _wpid: '4093'
+  dpi: 800
+  onboard_profiles: 1
+  report_rate: 1
