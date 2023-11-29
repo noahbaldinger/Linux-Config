@@ -100,7 +100,7 @@ case ${chosen} in
 		if [[ -x '/usr/bin/betterlockscreen' ]]; then
 			betterlockscreen -l
 		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
+			i3lock -c 1F1F1F
 		fi
         ;;
     $suspend)

@@ -143,8 +143,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
-	  -- or                            , branch = '0.1.x',
+	  'nvim-telescope/telescope.nvim',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   use { "ellisonleao/gruvbox.nvim" }
@@ -178,7 +177,7 @@ use({"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"})
     {'hrsh7th/cmp-nvim-lua'},     -- Optional
 
     -- Snippets
-    {'L3MON4D3/LuaSnip'},             -- Required
+    --{'L3MON4D3/LuaSnip'},             -- Required
     {'rafamadriz/friendly-snippets'}, -- Optional
 }
 }
@@ -248,6 +247,8 @@ use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 use {'christoomey/vim-tmux-navigator'}
 
 use {'ThePrimeagen/vim-be-good'}
+
+
 
 
 if is_bootstrap then

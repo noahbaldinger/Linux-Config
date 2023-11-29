@@ -41,5 +41,5 @@ vim.keymap.set("n", "<leader>pu", ":PackerUpdate<CR>")
 
 vim.keymap.set('n', '<leader>lr', ':w! | RunCode<CR>', { noremap = true, silent = false })
 
-
+vim.g.copilot_assume_mapped = true
 

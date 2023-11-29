@@ -1,9 +1,11 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR PROJECT_PATHS:/home/noah/Programming
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_budimanjojo_2F_tmux_2E_fish_files:\x7e/\x2econfig/fish/conf\x2ed/tmux\x2eextra\x2econf\x1e\x7e/\x2econfig/fish/conf\x2ed/tmux\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/tmux\x2eonly\x2econf\x1e\x7e/\x2econfig/fish/conf\x2ed/tmux_abbrs\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ebudimanjojo/tmux\x2efish
+SETUVAR _fisher_joseluisq_2F_gitnow_40_32_2E_31_2E_31__files:\x7e/\x2econfig/fish/functions/__gitnow_config_file\x2efish\x1e\x7e/\x2econfig/fish/functions/__gitnow_functions\x2efish\x1e\x7e/\x2econfig/fish/functions/__gitnow_manual\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/gitnow\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/gitnow_config\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ebudimanjojo/tmux\x2efish\x1ejoseluisq/gitnow\x402\x2e1\x2e1
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR chain_links:chain\x2elinks\x2eroot\x1echain\x2elinks\x2ejobs\x1echain\x2elinks\x2epwd\x1echain\x2elinks\x2evcs_branch\x1echain\x2elinks\x2evcs_dirty\x1echain\x2elinks\x2evcs_stashed
 SETUVAR fish_color_autosuggestion:555\x1ebrblack

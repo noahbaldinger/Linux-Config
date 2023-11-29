@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>utilities-terminal</icon>
-	<name>Open Terminal Here</name>
-	<submenu></submenu>
-	<unique-id>1686723114104163-1</unique-id>
-	<command>alacritty</command>
-	<description>Example for a custom action</description>
-	<range></range>
-	<patterns>*</patterns>
-	<startup-notify/>
-	<directories/>
-</action>
-<action>
-	<icon>Alacritty</icon>
+	<icon>neovim</icon>
 	<name>Open in NeoVim</name>
 	<submenu></submenu>
-	<unique-id>1687161683869480-1</unique-id>
-	<command>alacritty -e nvim</command>
-	<description></description>
+	<unique-id>1697800352615761-1</unique-id>
+	<command>/usr/bin/alacritty</command>
+	<description>NeoVim</description>
 	<range>*</range>
 	<patterns>*</patterns>
+</action>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open terminal here</name>
+	<submenu></submenu>
+	<unique-id>1697800132132895-2</unique-id>
+	<command>/usr/bin/alacritty</command>
+	<description>Terminal</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
 </action>
 </actions>

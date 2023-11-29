@@ -11,12 +11,12 @@ super + t
 
 # program launcher
 super + d
-	/home/nbaldinger/.config/rofi/launchers/type-6/launcher.sh
+	~/.config/rofi/launchers/type-7/launcher.sh
 
 
 # power-menu 
 super + x
-     /home/nbaldinger/.config/rofi/powermenu/type-2/powermenu.sh
+     ~/.config/rofi/powermenu/type-2/powermenu.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -64,6 +64,10 @@ super + f
 
 super + space
     bspc node -t {tiled,floating}
+
+
+ctrl + alt + l
+    i3lock -c 1F1F1F
 
 # focus/swap
 #
@@ -173,7 +177,7 @@ super + Print
 
 # Shortcuts
 super + alt + f
-  firefox
+  waterfox
 
 super + e
   thunar  
