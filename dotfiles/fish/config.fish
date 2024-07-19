@@ -6,8 +6,7 @@ if status is-interactive
     export EDITOR="/usr/bin/nvim"
     export PATH="/home/nbaldinger/.local/bin:$PATH/"
 
-
-    alias sudoedit="sudo nvim"
+alias sudoedit="sudo nvim"
 
 
 
@@ -22,7 +21,6 @@ if status is-interactive
     alias clr-cache="yay -Scc"
     alias uu="yay"
 
-    alias updategrub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 
     #Yay shortcuts
@@ -31,8 +29,7 @@ if status is-interactive
     alias y="yay -S"
 
     alias c="clear"
-    alias neo="neofetch"
-    alias bonsai="cbonsai -lit 0.05"
+    alias fetch="fastfetch"
 
     alias !!='commandline -i "sudo $history[1]";history delete --exact --case-sensitive !!'
 
@@ -41,15 +38,14 @@ if status is-interactive
     alias nano='nvim'
     alias vim='nvim'
     alias vi='nvim'
+    alias fzn='nvim $(fzf --preview="cat {}")'
+    alias fuzz="fzf --preview='cat {}'"
+
 
     alias orphanslist="pacman -Qdtq"
-    alias list_packages='echo $(pacman -Qq) > /hdd/Documents\ on\ HDD/packages.txt'
-
-    alias wttr='curl "wttr.in/?F2M"'
-    alias sync="onedrive"
 
 
-    alias vpn='protonvpn-cli'
+
 
     # Alias's to modified commands
     alias cp='cp -i'
@@ -58,7 +54,6 @@ if status is-interactive
     alias mkdir='mkdir -p'
     alias ps='ps auxf'
     alias ping='ping -c 10'
-    alias freshclam='sudo freshclam'
 
 
 
@@ -105,10 +100,7 @@ if status is-interactive
     alias treed='tree -CAFd'
     alias mountedinfo='df -hT'
 
-
-    alias plasma="killall plasmashell && plasmashell > /dev/null 2>&1 & disown"
     
-
 
     #Tmux Stuff
     alias t="tmux a -t "
@@ -117,10 +109,9 @@ if status is-interactive
     alias tn="tmux new -s "    
 
 
-    alias shared='sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000'
 
     starship init fish | source
-    
+    zoxide init fish --cmd cd | source
     
 end
 begin
