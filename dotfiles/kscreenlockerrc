@@ -1,8 +1,0 @@
-[$Version]
-update_info=kscreenlocker.upd:0.1-autolock
-
-[Daemon]
-Autolock=false
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=/home/noah/OneDrive/Documents/Bilder/Wallpapers/Minimal Coding wallpaper (3840x2160).png
