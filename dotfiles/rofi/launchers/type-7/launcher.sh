@@ -17,4 +17,4 @@ theme='style-4'
 rofi \
     -show drun \
     -theme ${dir}/${theme}.rasi \
-    -m 2
+    -m 0

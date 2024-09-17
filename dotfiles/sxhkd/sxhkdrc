@@ -4,10 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
-super + t
-    alacritty 
-
+  kitty
 
 # program launcher
 super + d
@@ -19,12 +16,17 @@ super + x
      ~/.config/rofi/powermenu/type-2/powermenu.sh
 
 # make sxhkd reload its configuration files:
-super + Escape
+super + escape
 	pkill -USR1 -x sxhkd
 
 
 ctrl + alt + v
-    alacritty -e nvim
+    kitty -e nvim
+
+super + ctrl + d
+  ~/.config/rofi/launchers/windowswitch/launcher.sh 
+
+
 
 #
 # bspwm hotkeys
@@ -38,6 +40,11 @@ super + alt + {q,r}
 super + {_,shift + }q
 	bspc node -{c,k}
 
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+    bspc node -g {marked,locked,sticky,private}
+
 # alternate between the tiled and monocle layout
 super + m
 	bspc desktop -l next
@@ -49,6 +56,10 @@ super + y
 # swap the current node and the biggest window
 super + g
 	bspc node -s biggest.window
+
+# Rotate all windows {counter-}clockwise by 90 degrees.
+mod4 + {_,shift + }r
+    bspc node @/ --rotate {90,-90}
 
 #
 # state/flags
@@ -71,18 +82,15 @@ ctrl + alt + l
 
 # focus/swap
 #
+# Focus the node in the given direction.
+mod4 + {h,j,k,l}
+    bspc node -f {west,south,north,east}
 
-# focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
 
-# focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
+# super + {p,b,comma,period}
+# 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {_,shift + }c
-	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
@@ -99,11 +107,11 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
-super + shift + {1-9,0}
-	bspc node -d '^{1-9,10}'
+super + alt + {1-9,0}
+	bspc node -d '{I,II,III,IV,V,VI,VII,VIII,IX,X}'
 
 super + {1-9,0}
-    bspc desktop -f '^{1-9,10}'
+    bspc desktop -f '{I,II,III,IV,V,VI,VII,VIII,IX,X}'
 
 
 #
@@ -139,7 +147,7 @@ super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-super + {Left,Down,Up,Right}
+super + ctrl + alt + {h,j,k,l}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 #
 # Special hotkeys
@@ -177,10 +185,20 @@ super + Print
 
 # Shortcuts
 super + alt + f
-  waterfox
+ firefox 
 
 super + e
   thunar  
 
-super + F1
+F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
+
+# bspwm_smart_move is part of my dotfiles (link in the description).
+
+ctrl + shift + {h,j,k,l}
+  bspwm_smart_move {west,south,north,east}
+
+super + shift + {y,u,i}
+    bspc config window_gap {0, 5, 10}
+
+

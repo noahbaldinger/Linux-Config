@@ -17,7 +17,7 @@ Utility Keyboard Shortcuts
 
 ###################
 
--> Open terminal (xfce4-terminal)
+-> Open terminal Kitty
 Super + Return
 
 -> App launcher (Rofi)
@@ -26,26 +26,18 @@ Super + d
 -> Window switcher
 Super + Ctrl + d
 
--> Show SSH sessions
-Super + Shift + d
 
 -> Power Menu
-Super + Shift + e
+super + x
 
 -> Reload Sxhkd (you need to do this after you modify sxhkdrc)
 Super + Escape
 
--> Screen shot full monitor and save in Pictures folder
-Print
-
--> Show screenshot menu
-Super + Print
-
 -> Launch Firefox
-Super + w
+Super + f
 
 -> Launch Thunar
-Super + n
+Super + e
 
 
 
@@ -64,11 +56,13 @@ Super + Alt + r
 Super + Alt + q
 
 -> Close focused window
-Super + Shift + q
+Super + q
 
 -> Switch between tiled and monocle layout
 Super + m
 
+->BSPWM Smart Move 
+alt + Shift + {h,j,k,l}
 -> Swap current and largest window
 Super + g
 
@@ -80,7 +74,7 @@ It's like vim keys :)
 Super + <number>
 
 -> Send current node to different desktop
-Super + Shift + <number>
+Super + alt + <number>
 
 -> Expand a window {left, bottom, top, right}
 Super + Alt + {h, j, k, l}
@@ -89,13 +83,10 @@ Super + Alt + {h, j, k, l}
 Super + Alt + Shift + {h, j, k, l}
 
 -> Move a floating window
-Super + {left, down, up, right}
+Super + alt {h,j,k,l}
 
 -> Focus the last node
 Super + grave
-
--> Focus the last desktop
-Super + Tab
 
 -> Focus older node in focus history
 Super + o

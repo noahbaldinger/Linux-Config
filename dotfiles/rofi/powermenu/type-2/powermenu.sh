@@ -33,7 +33,7 @@ rofi_cmd() {
 		-p "$host" \
 		-mesg "Uptime: $uptime" \
 		-theme ${dir}/${theme}.rasi \
-		-m 1
+		-m 0
 }
 
 # Confirmation CMD
