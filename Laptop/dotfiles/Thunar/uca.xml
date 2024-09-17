@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>neovim</icon>
+	<name>Open in NeoVim</name>
+	<submenu></submenu>
+	<unique-id>1697800352615761-1</unique-id>
+	<command>/usr/bin/alacritty</command>
+	<description>NeoVim</description>
+	<range>*</range>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open terminal here</name>
+	<submenu></submenu>
+	<unique-id>1697800132132895-2</unique-id>
+	<command>/usr/bin/alacritty</command>
+	<description>Terminal</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
