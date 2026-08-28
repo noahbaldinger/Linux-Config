@@ -1,0 +1,11 @@
+{
+  "displayMode": "icon-always",
+  "deviceNativePath": "BAT0",
+  "showPowerProfiles": true,
+  "showNoctaliaPerformance": false,
+  "hideIfNotDetected": true,
+  "hideIfIdle": false,
+  "refreshIntervalSeconds": 10,
+  "showPowerInBar": true,
+  "showTimeInBar": true
+}

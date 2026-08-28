@@ -1,0 +1,122 @@
+# -----------------------------------------------------
+# ALIASES
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# General
+# -----------------------------------------------------
+alias c='clear'
+alias ff='fastfetch --config examples/13'
+alias ls='eza -l --icons=always'
+alias ll='eza -l --icons=always'
+alias v='$EDITOR'
+alias vim='$EDITOR'
+alias net='wlctl'
+
+# -----------------------------------------------------
+# System
+# -----------------------------------------------------
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+
+    alias sudoedit="sudo nvim"
+
+
+    alias pac="sudo pacman -S"
+    alias search="sudo pacman -Ss"
+    alias search-local="sudo pacman -Qs"
+    alias pkg-info="sudo pacman -Qi"
+    alias local-install="sudo pacman -U"
+
+
+    alias clr-cache="yay -Scc"
+    alias uu="yay"
+
+
+
+    #Yay shortcuts
+    alias remove="yay -Rns"
+    alias ysearch="yay -Ss"
+
+
+
+    alias nano='nvim'
+    alias vim='nvim'
+    alias vi='nvim'
+    alias fzn='nvim $(fzf --preview="cat {}")'
+    alias fz="fzf --preview='cat {}'"
+
+
+    alias orphanslist="pacman -Qdtq"
+
+
+
+
+    # Alias's to modified commands
+    alias cp='cp -i'
+    alias mv='mv -i'
+    alias rm='rm -iv'
+    alias mkdir='mkdir -p'
+    alias ps='ps auxf'
+    alias ping='ping -c 10'
+
+
+
+    # Change directory aliases
+    alias cd='z'
+    alias home='cd ~'
+    alias cd..='cd ..'
+    alias ..='cd ..'
+    alias ...='cd ../..'
+    alias ....='cd ../../..'
+    alias .....='cd ../../../..'
+
+    # Alias's for multiple directory listing commands
+    #alias la='ls -Alh' # show hidden files
+    #alias ls='ls -aFh --color=always' # add colors and file type extensions
+    alias lx='eza -lXBh' # sort by extension
+    alias lk='eza -lSrh' # sort by size
+    alias lu='eza -lurh' # sort by access time
+    alias lr='eza -lRh' # recursive ls
+    alias lm='eza -alh | more' # pipe through 'more'
+    alias lw='eza -xAh' # wide listing format
+    alias lf="eza -l | egrep -v '^d'" # files only
+    alias ldir="eza -l | egrep '^d'" # directories only
+
+
+
+    # Search command line history
+    alias h="history | grep "
+
+    # Search running processes
+    alias p="ps aux | grep "
+
+
+    # Search files in the current folder
+    alias f="find . | grep "
+
+    # Alias's to show disk space and space used in a folder
+    alias folders='du -h --max-depth=1'
+    alias folderssort='find . -maxdepth 1 -type d -print0 | xargs -0 du -sk | sort -rn'
+    alias tree='tree -CAhF --dirsfirst'
+    alias treed='tree -CAFd'
+    alias mountedinfo='df -hT'
+
+    
+
+    #Tmux Stuff
+    alias t="tmux a -t "
+    alias tks="tmux kill-server"
+    alias tls="tmux ls"
+    alias tn="tmux new -s " 
+
+
+    alias odstatus="systemctl --user status onedrive"
+    alias odrestart="systemctl --user restart onedrive"
+    alias odstop="systemctl --user stop onedrive"
+
+    alias vps="ssh root@75.119.131.37"
+
+    alias kan="kanshi &"
+
+    [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
